@@ -6,3 +6,4 @@ Lets say you have several projects that need to be finished within a certain amo
   -users can select the amount of days (display date and weekday)
   -projects, to-do items
   -I totally want to use <details>
+  -blablabla
