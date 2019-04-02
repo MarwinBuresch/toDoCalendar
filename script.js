@@ -1,6 +1,30 @@
 function myFunction() {
-    var node = document.createElement("LI");
-    var textnode = document.createTextNode("Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium asperiores ab accusamus vero culpa quae impedit amet aut libero quasi deserunt vel repellat placeat deleniti, tempore sapiente cumque soluta labore dicta sint dignissimos quibusdam facilis mollitia? Eum voluptates ex officiis fugit aut, laudantium dolor impedit necessitatibus cumque voluptatum iusto officia");
-    node.appendChild(textnode);
-    document.getElementById("project").appendChild(node);
+    var newListItem = document.createElement("LI");
+    var beer = document.createTextNode("beer");
+    newListItem.appendChild(beer);
+    document.getElementById("project").appendChild(newListItem);
+  }
+
+function myFunction2() {
+    var newListItem = document.createElement("LI");
+    var input;
+    
+    newListItem.appendChild(beer);
+
+    input = document.getElementById("toDoInput").value;
+  
+    
+    document.getElementById("demo").innerHTML = text;
+  }
+
+
+  var beer = document.createTextNode("beer");
+
+
+function newListItem() {
+  var createLiElement = document.createElement("LI");
+  
+
+
+
   }
