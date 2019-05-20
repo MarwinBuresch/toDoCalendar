@@ -9,6 +9,45 @@
     <script src="script.js"></script>
 </head>
 <body>
+    <!-- title and userbar with dropdown menu (eventually). PART OF THE FRAME-->
+    <div class="frame-userbar"><h1>Title and Userbar</h1></div>
+
+    <!-- an overview of all imminent tasks sorted by project. OPTIONAL PART OF THE FRAME-->
+    <div class="overview">
+        <ul class="project">
+            <!-- display each project, with dropdown arrow task thingy-->
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid?</li>
+            <li>Optio molestiae fuga provident quis veniam commodi delectus suscipit autem.</li>
+        </ul>
+    </div>
+
+    <!-- a list of all the projects. MAIN CONTENT-->
+    <div class="all-projects"><h1>to do list and project overview</h1>
+            <!-- project 1-->
+            <div class="project">
+                    <details>
+                        <summary>Projectname</summary>
+                        <p>A description of the project</p>
+                        <p>more things and a to do list</p>
+                        <div class="to-do-item"><input type="checkbox" name="name" value="value"> to do item<br></div>
+                        <div class="to-do-item"><input type="checkbox" name="name" value="value"> another to do item<br></div>                            
+                    </details> 
+            </div>
+
+            <!-- project 2-->
+            <div class="project">
+                    <details>
+                        <summary>Projectname</summary>
+                        <p>A description of the project</p>
+                        <p>more things and a to do list</p>
+                        <div class="to-do-item"><input type="checkbox" name="name" value="value"> to do item<br></div>
+                        <div class="to-do-item"><input type="checkbox" name="name" value="value"> another to do item<br></div>                            
+                    </details> 
+            </div>
+    </div>
+
+<!-- old stuff 
+
     <div class="setup-box"><button onclick="myFunction()">more BEER!</button></div>
     <div class="font">
         <details>
@@ -31,6 +70,7 @@
     </div>
 
     <p id="demo"></p>
+    -->
     
 
 </body>
