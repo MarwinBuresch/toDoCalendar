@@ -7,24 +7,34 @@
     <title>toDoCalendar</title> 
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 <body>
     <!-- title and userbar with dropdown menu (eventually). PART OF THE FRAME-->
-    <div class="frame-userbar"><h1>Title and Userbar</h1></div>
-
-    <!-- an overview of all imminent tasks sorted by project. OPTIONAL PART OF THE FRAME-->
-    <div class="overview">
-        <ul class="project">
-            <!-- display each project, with dropdown arrow task thingy-->
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid?</li>
-            <li>Optio molestiae fuga provident quis veniam commodi delectus suscipit autem.</li>
-        </ul>
+    <div class="userbar">
+            <div class="menu"><i class="fas fa-bars"></i></div>
+            <div class="title">Title and Userbar</div>
+            <div class="user"><i class="fas fa-user-circle"></i></div>
     </div>
 
+    <!-- an overview of all IMMINENT ITEMS sorted by project and an ADD ITEM container-->
+    <div class="top">
+        <div class="frameImminent">imminent tasks/item
+            <div class="imminentItems">imminentItems container</div>
+        </div>
+
+        <div class="frameAddItem">container to add items
+            <div class="addItem">addItem container</div>
+        
+        </div>
+    </div>
+
+
     <!-- a list of all the projects. MAIN CONTENT-->
-    <div class="all-projects"><h1>to do list and project overview</h1>
+    <div class="frameOverview">
+
             <!-- project 1-->
-            <div class="project">
+            <div class="project">project container
                     <details>
                         <summary>Projectname</summary>
                         <p>A description of the project</p>
@@ -35,7 +45,7 @@
             </div>
 
             <!-- project 2-->
-            <div class="project">
+            <div class="project">project container
                     <details>
                         <summary>Projectname</summary>
                         <p>A description of the project</p>
@@ -44,7 +54,40 @@
                         <div class="to-do-item"><input type="checkbox" name="name" value="value"> another to do item<br></div>                            
                     </details> 
             </div>
+            <!-- project 3-->
+            <div class="project">project container
+                <details>
+                    <summary>Projectname</summary>
+                    <p>A description of the project</p>
+                    <p>more things and a to do list</p>
+                    <div class="to-do-item"><input type="checkbox" name="name" value="value"> to do item<br></div>
+                    <div class="to-do-item"><input type="checkbox" name="name" value="value"> another to do item<br></div>                            
+                </details> 
+            </div>
+            <!-- project 4-->
+            <div class="project">project container
+                <details>
+                    <summary>Projectname</summary>
+                    <p>A description of the project</p>
+                    <p>more things and a to do list</p>
+                    <div class="to-do-item"><input type="checkbox" name="name" value="value"> to do item<br></div>
+                    <div class="to-do-item"><input type="checkbox" name="name" value="value"> another to do item<br></div>                            
+                </details> 
+            </div>
+            <!-- project 5-->
+            <div class="project">project container
+                <details>
+                    <summary>Projectname</summary>
+                    <p>A description of the project</p>
+                    <p>more things and a to do list</p>
+                    <div class="to-do-item"><input type="checkbox" name="name" value="value"> to do item<br></div>
+                    <div class="to-do-item"><input type="checkbox" name="name" value="value"> another to do item<br></div>                            
+                </details> 
+            </div>
     </div>
+
+
+
 
 <!-- old stuff 
 
